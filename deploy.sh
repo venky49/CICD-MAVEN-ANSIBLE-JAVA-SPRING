@@ -1,4 +1,4 @@
-!#/bin/bash
+#!/bin/bash
 sudo ln -s /var/lib/jenkins/workspace/helloworld-tomcat/target ~/deploypath
 sudo cd  /deploypath
 sudo mv spring3-mvc-maven-xml-hello-world-1.0-SNAPSHOT.war helloworld.war
