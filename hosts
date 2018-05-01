@@ -1,2 +1,2 @@
 [web]
-172.18.1.2
+172.18.1.2  ansible_user:root ansible_passoword:vagrant
