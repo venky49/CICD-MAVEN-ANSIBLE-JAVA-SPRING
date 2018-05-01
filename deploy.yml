@@ -1,6 +1,7 @@
 ---
 - hosts: web
   gather_facts: no
+  root_user: yes
   tasks:
   
    - name: checking ping
