@@ -6,13 +6,4 @@
    - name: checking ping
      ping:
      
-   - name: stat foo
-     copy:
-      src: /tmp/helloworld.war
-      dest: /usr/share/tomcat/webapps/
-
-   - name: restart tomcat service
-     service:
-       name: tomcat
-       state: restarted
 
