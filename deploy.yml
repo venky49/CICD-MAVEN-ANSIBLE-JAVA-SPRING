@@ -1,8 +1,11 @@
 ---
 - hosts: web
-  sudo: yes
   gather_facts: no
   tasks:
+  
+   - name: checking ping
+     ping:
+     
    - name: stat foo
      copy:
       src: /tmp/helloworld.war
