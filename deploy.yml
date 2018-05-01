@@ -1,6 +1,12 @@
 ---
 - hosts: webservers
+  sudo: yes
+  gather_facts: no
   tasks:
+  - name: install ssh key
+    authorized_key: user=root 
+                    key="{{ lookup('file', '/root/.ssh/id_rsa.pub') }}" 
+                    state=present
    - name: stat foo
      copy:
       src: /tmp/helloworld.war
