@@ -9,7 +9,9 @@
      copy:
       src: /tmp/helloworld.war
       dest: /usr/share/tomcat/webapps/
-      
+      owner: root
+      group: root
+      mode: 0644  
    - name: restart tomcat service
      service:
        name: tomcat
