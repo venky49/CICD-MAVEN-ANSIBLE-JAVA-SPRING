@@ -6,7 +6,7 @@
    - name: checking ping
      ping:
    - name: copy the build artifcats into tomcat location
-     command: scp -rf /tmp/helloworld.war 172.18.1.2:/usr/share/tomcat/webapps
+     command: scp /tmp/helloworld.war 172.18.1.2:/usr/share/tomcat/webapps
    - name: restart tomcat service
      service:
        name: tomcat
