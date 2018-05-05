@@ -5,5 +5,11 @@
   
    - name: checking ping
      ping:
+   - name: copy the build artifcats into tomcat location
+     copy:
+      src: /tmp/helloworld.war
+      dest: /usr/share/tomcat/webapps/
+      
+   
      
 
