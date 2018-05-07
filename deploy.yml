@@ -1,22 +1,15 @@
 ---
 - hosts: web
-  gather_facts: yes
   tasks:
-  
-   - name: checking ping
-     ping:
-   - name: copy the build artifcats into tomcat location
-     copy: 
+   - name : copy the build artifacts into webserver
+     copy:
        src: /tmp/helloworld.war
-       dest: /usr/share/tomcat/webapps
-       
-   - name: restart tomcat service
+       dest: /usr/share/tomcat/webapps/
+   - name: restart tomcat server
      service:
-       name: tomcat
-       state: started
-       
-       
-      
+        name: tomcat
+        state: started
+
    
      
 
