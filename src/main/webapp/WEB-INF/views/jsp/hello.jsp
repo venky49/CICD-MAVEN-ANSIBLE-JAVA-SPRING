@@ -28,7 +28,7 @@
 		</c:if>
 
 		<c:if test="${empty name}">
-			Welcome Welcome!
+			Hi Koti, welcome to the fist Java serverlet webapplication!
 		</c:if>
     </p>
     <p>
@@ -42,21 +42,21 @@
   <div class="row">
 	<div class="col-md-4">
 		<h2>Changed to</h2>
-		<p>kOTI</p>
+		<p>kOTI-new</p>
 		<p>
 			<a class="btn btn-default" href="#" role="button">View details</a>
 		</p>
 	</div>
 	<div class="col-md-4">
 		<h2>changed</h2>
-		<p>KOTI</p>
+		<p>KOTI-new</p>
 		<p>
 			<a class="btn btn-default" href="#" role="button">View details</a>
 		</p>
 	</div>
 	<div class="col-md-4">
 		<h2>changed</h2>
-		<p>KOTI</p>
+		<p>KOTI-new</p>
 		<p>
 			<a class="btn btn-default" href="#" role="button">View details</a>
 		</p>
