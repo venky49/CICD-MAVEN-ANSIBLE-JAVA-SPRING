@@ -28,7 +28,7 @@
 		</c:if>
 
 		<c:if test="${empty name}">
-			Hi Koti, welcome to the fist Java serverlet webapplication!
+			This is new change to demo the CI & CD process for Team
 		</c:if>
     </p>
     <p>
