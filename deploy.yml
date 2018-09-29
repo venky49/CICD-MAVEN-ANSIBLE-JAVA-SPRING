@@ -3,7 +3,7 @@
   tasks:
    - name : copy the build artifacts of maven into webserver
      copy:
-       src: /tmp/helloworld.war
+       src: /tmp/kotinew.war
        dest: /usr/share/tomcat/webapps/
    - name: restart tomcat server
      service:
