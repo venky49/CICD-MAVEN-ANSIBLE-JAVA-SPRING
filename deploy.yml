@@ -1,6 +1,16 @@
 ---
 - hosts: web
   tasks:
+   - name: stop tomcat service
+     service: 
+       name: tomcat
+       state: stopped
+   - name: set folder permissions
+     file:
+       path: /usr/share/tomcat/webapps/
+       state: directory
+       mode: 0775
+       
    - name : copy the build artifacts of maven into webserver
      copy:
        src: /tmp/kotinew.war
