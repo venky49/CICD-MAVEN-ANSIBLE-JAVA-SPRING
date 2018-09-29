@@ -1,10 +1,6 @@
 ---
 - hosts: web
   tasks:
-   - name: stop tomcat service
-     service: 
-       name: tomcat
-       state: stopped
    - name: set folder permissions
      file:
        path: /usr/share/tomcat/webapps/
