@@ -42,21 +42,21 @@
   <div class="row">
 	<div class="col-md-4">
 		<h2>Changed to</h2>
-		<p>kOTI-new</p>
+		<p>venky-new</p>
 		<p>
 			<a class="btn btn-default" href="#" role="button">View details</a>
 		</p>
 	</div>
 	<div class="col-md-4">
 		<h2>changed</h2>
-		<p>KOTI-new</p>
+		<p>venky-new</p>
 		<p>
 			<a class="btn btn-default" href="#" role="button">View details</a>
 		</p>
 	</div>
 	<div class="col-md-4">
 		<h2>changed</h2>
-		<p>KOTI-new</p>
+		<p>venky-new</p>
 		<p>
 			<a class="btn btn-default" href="#" role="button">View details</a>
 		</p>
