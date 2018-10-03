@@ -1,5 +1,5 @@
 [web]
-172.18.1.20 ansible_connection=ssh ansible_ssh_user=vagrant ansible_ssh_pass=vagrant 
+192.168.56.2 ansible_connection=ssh ansible_ssh_user=root ansible_ssh_pass=vagrant 
 
 [DB]
 
