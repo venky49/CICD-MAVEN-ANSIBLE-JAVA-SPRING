@@ -9,7 +9,7 @@
        
    - name : copy the build artifacts of maven into webserver
      copy:
-       src: /tmp/kotinew.war
+       src: /tmp/venkynew.war
        dest: /usr/share/tomcat/webapps/
    - name: restart tomcat server
      service:
